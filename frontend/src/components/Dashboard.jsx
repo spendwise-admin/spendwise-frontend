@@ -435,7 +435,7 @@ export default function Dashboard() {
 )}
 {expense.receipt && visibleReceiptId === expense.id && (
   <img
-    src={`${ API_BASE }${expense.receipt}`}
+    src={expense.receipt}
     alt="Receipt"
 className="mt-3 w-44 rounded-xl border border-gray-200 shadow-sm object-contain"  />
 )}
